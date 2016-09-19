@@ -66,7 +66,7 @@ include('header.php');
 <div class="col-md-3">
 <h5>ABOUT US</h5>
 <p>hhfhf jgjg ggu gjgu gg uhiuhi gugu guu gjg gg gyg ggg gg gg gg gg g gygygyg gygygf fff ff fftf tftftf tftft ttftff tftf fftf tft
-chgchgh hhhg ghhg jgjg gjyg jgg jgg jgjg jgg jgjg</p>
+chgchgh hhhg ghhg jgjg gjyg jgg jgg jgjg jgg jgjg sdgfh cvn dxhfg dsd fgffd</p>
 </div>
 <div class="col-md-3">
 
