@@ -1,87 +1,344 @@
 
+.sec1{
+   
+    border-top:4px solid #e70012;
+    padding:1%;
+}
+
 body {margin:0;}
 ul.topnav {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  overflow:hidden;
  
 }
 
-ul.topnav li {float: left;
+ul.topnav li {
+  float: left;
 }
 
 ul.topnav li a {
-  display: inline-block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  transition: 0.3s;
-  font-size: 17px;
+  display:inline-block;
+  color:#f2f2f2;
+  text-align:center;
+  padding:14px 16px;
+  text-decoration:none;
+  transition:0.3s;
+  font-size:17px;
   color:black;
 }
 ul#myTopnav {
-    margin-top: 12px;
+    margin-top:12px;
 }
 
-ul.topnav li a:hover {background-color: #555;}
+ul.topnav li a:hover {
+  background-color:red;
+color: white;}
 
-ul.topnav li.icon {display: none;}
+ul.topnav li.icon {display:none;}
 
 @media screen and (max-width:680px) {
-  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li:not(:first-child) {display:none;}
   ul.topnav li.icon {
-    float: right;
-    display: inline-block;
+    float:right;
+    display:inline-block;
   }
 }
 
 @media screen and (max-width:680px) {
   ul.topnav.responsive {position: relative;}
   ul.topnav.responsive li.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
+    position:absolute;
+    right:0;
+    top:0;
   }
   ul.topnav.responsive li {
-    float: none;
-    display: inline;
+    float:none;
+    display:inline;
   }
   ul.topnav.responsive li a {
-    display: block;
-    text-align: left;
+    display:block;
+    text-align:left;
   }
 }
-.btn1
-{
-	background:#C00;
-	color:#FFF;
-	border:#C00;
+
+
+
+
+
+
+.sec2{
+	position:relative;
 
 }
- .sec3 img{
-	 position:absolute;
+
+.sec2-head img{
+	position:absolute;
+	top:8%;
+  left:40%;
+
+}
+.sec2-head h2{
+font-family:"Myriad Pro";
+    position:absolute;
+    top:39%;
+    left:47%;
+}
+.button1{
+	    background-color:#e70012;
+    border-radius:1px;
+    padding:5px;
+    top:35%;
+    left:59%;
+    text-align:left;
+    position:absolute;
+    color:white;
+}
+
+.button2{
+	  background-color:#e70012;
+    border-radius:1px;
+}
+
+
+
+
+
+.sec4 {
 	 
  }
- .sec3_head h1{
-	 position:relative;
-	 color:#FFF;
-	 text-align:center;
+ .sec4 img{
  }
-  .sec3_head ul{
-	   position:relative;
-	   color:#FFF;
+ .sec4 h1{
+	 color:#FFF;
+	 padding-top: 64px;
+    text-align:center;
+ }
+ .sec4_head ul{
+              margin-top: 12%;
+
+  
   }
+      .list li{
+            background: transparent url(../image/footerimg.png)no-repeat;
+            line-height: 20px;
+    padding: 1% 1%;
+    padding-left: 17px;
+    list-style-type: none;
+    margin: 6px;
+    margin-top: 3%;
+    font-size: 19px;
+    color: #8a8686;
+
+   }
+
+.sec5{
+	 padding-top: 64px;
+}
+
+.sec5 h2{
+	 color:#6b6b6b;
+	 font-family:"Myriad Pro";
+	font-size:46pt;
+	 
+ }
+.backimg{
+	background-image:url(../image/footer.png);
+	background-repeat:no-repeat;
+	max-width:100%;
+	height:auto;
+}
+
+.btn1{
+	background:#F00;
+	border-color:#F00;
+}
+.btn2{
+	background:#F00;
+	border-color:#F00;
+}
+
+
 
 .sec6{
 	background:#242424;
 }
 
-.sec6 h5{
+.sec6 h4{
 	color:#FFF;
+	font-family:"Myriad Pro";
+	font-size:23pt;
+	margin-top: 73px;
 }
-.sec6 p{
-	color:#FFF;
+
+
+.about1{
+	color:#50585c;
+	font-family:"Myriad Pro";
+	font-size:13pt;
+	margin-top: 35px;
+}
+.about2{
+	color:#50585c;
+	font-family:"Myriad Pro";
+	font-size:13pt;
+	margin-top: 35px;
+}
+.sec6 li{
+	color:#414649;
+	font-family:"Myriad Pro";
+	font-size:13pt;
+	list-style:none;
+
+}
+.benefit1{
+	color:#50585c;
+	font-family:"Myriad Pro";
+	font-size:13pt;
+	background:transparent url("../image/bag6.png")no-repeat;
+	line-height: 20px;
+	padding: 15px 0;
+	padding-left: 75px;
+	float:right;
+	margin-top: 35px;
+	
+}
+.name1{
+	color:#50585c;
+	font-family:"Myriad Pro";
+	font-size:13pt;
+	padding-left: 75px;
+	border-bottom:1px solid #CCC;
+	
+}
+.benefit2{
+	color:#50585c;
+	font-family:"Myriad Pro";
+	font-size:13pt;
+	background:transparent url("../image/bag7.png")no-repeat;
+	line-height: 20px;
+	padding: 15px 0;
+	padding-left: 75px;
+	float:right;
+	margin-top: 35px;
+	
+}
+.name2{
+	color:#50585c;
+	font-family:"Myriad Pro";
+	font-size:13pt;
+	padding-left: 75px;
+	border-bottom:1px solid #CCC;
+
+}
+
+.benefit3{
+	margin: 0px;
+	padding: 5px 0;
+	padding-left: 40px;
+	float:left;
+	color:#50585c;
+	font-family:"Myriad Pro";
+	font-size:13pt;
+	background:transparent url("../image/bag8.png")no-repeat;
+	line-height: 20px;
+	
+	
+	margin-top: 35px;
+	
+}
+.name3{
+	color:#50585c;
+	font-family:"Myriad Pro";
+	font-size:13pt;
+	padding-left: 75px;
+	border-bottom:1px solid #CCC;
+	
+}
+
+
+
+.service li{
+	margin: 0px;
+	padding: 5px 0;
+	padding-left: 40px;
+	float:left;
+	background:transparent url("../image/bag5.png")no-repeat;
+	line-height: 20px;
+	border-bottom:1px solid #CCC;
+	margin-top: 35px;
+	font-family:"Myriad Pro";
+	font-size:13pt;
+}
+
+.one{
+		margin: 0px;
+	padding: 5px 0;
+	padding-left: 40px;
+	float:left;
+	background:transparent url("../image/bag1.png")no-repeat;
+	font: bold 11px Verdana, Arial, Helvetica, sans-serif;
+	line-height: 30px;
+	border-bottom:1px solid #CCC;
+	margin-top: 35px;
+	font-family:"Myriad Pro";
+	font-size:13pt;
+}
+.two{
+	margin: 0px;
+	padding: 5px 0;
+	padding-left: 40px;
+	float:left;
+	background:transparent url("../image/bag2.png")no-repeat;
+	font: bold 11px Verdana, Arial, Helvetica, sans-serif;
+	line-height: 30px;
+	border-bottom:1px solid #CCC;
+	margin-top: 35px;
+	font-family:"Myriad Pro";
+	font-size:13pt;
+		
+}
+.three{
+	margin: 0px;
+	padding: 5px 0;
+	padding-left: 40px;
+	float:left;
+	background:transparent url("../image/bag3.png")no-repeat;
+	font: bold 11px Verdana, Arial, Helvetica, sans-serif;
+	line-height: 30px;
+	border-bottom:1px solid #CCC;
+	margin-top: 35px;
+	font-family:"Myriad Pro";
+	font-size:13pt;
+		
+}
+.four{
+	margin: 0px;
+	padding: 5px 0;
+	padding-left: 40px;
+	float:left;
+	background:transparent url("../image/bag4.png")no-repeat;
+	font: bold 11px Verdana, Arial, Helvetica, sans-serif;
+	line-height: 30px;
+    border-bottom:1px solid #CCC;
+	margin-top: 35px;
+	font-family:"Myriad Pro";
+	font-size:13pt;		
+}
+
+.sec7{
+	background-color:#151515;
+}
+.sec7_head h4{
+margin-top: 28px;
+font-family:"Myriad Pro";
+font-size:13pt;
+}
+.sec7_head img{
+	float:right;
+	margin-top: 25px;
+
+	
 }
 
